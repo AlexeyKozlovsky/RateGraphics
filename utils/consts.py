@@ -1,0 +1,6 @@
+DEVNAME = 'C3100'
+TERMCHAR = '\r'
+VID, PID = '067B','2303'         # Prolific PL-2303 USB-Serial cable
+BAUDRATE = 9600
+BYTESIZE = 8
+NRET = 0
