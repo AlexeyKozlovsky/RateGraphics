@@ -73,6 +73,6 @@ if __name__ == '__main__':
         filename = add_timestamp('c3100')
 
     time0 = time.time()
-    ani = animation.FuncAnimation(fig, read_data, fargs=(xar1, yar1, xar2, yar2), interval=1000)
+    ani = animation.FuncAnimation(fig, read_data, fargs=(xar1, yar1, xar2, yar2), interval=300)
     plt.show()
 
